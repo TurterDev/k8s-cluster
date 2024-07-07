@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-pods
+  labels:
+    name: client
+spec:
+  containers:
+  - name: client
+    image: <Image:tag>
+
